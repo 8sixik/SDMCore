@@ -1,0 +1,26 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.sixik.sdmcore.common.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "sdmcore.refmap.json",
+  "mixins": [
+    "accessors.SDMAbstractArrowAccessor",
+    "accessors.SDMRaidsAccessor",
+    "unchange.SDMChestBlockEntityMixin",
+    "unchange.SDMChestLootGenMixin",
+    "unchange.SDMChunkMapMixin",
+    "unchange.SDMEnchantMixin",
+    "unchange.SDMEntityLivingMixin",
+    "unchange.SDMLevelChunkSectionMixin",
+    "unchange.SDMPlayerMixin",
+    "unchange.SDMPotionItemMixin",
+    "unchange.SDMRaidMixin",
+    "unchange.SDMServerPlayerMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
